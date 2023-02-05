@@ -22,4 +22,6 @@ router.get('/all/admin-users', allUsers)
 router.get('/single-user/admin/:id', adminGetSingleUser)
 router.post('/admin-update-user-info/:id', adminUpdateUserInfo)
 
+// it is wrong to update the backend script from the cpanel
+
 module.exports = router 
